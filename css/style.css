@@ -1,0 +1,32 @@
+body{
+    font-family: 'Amita', cursive;
+    background-color: #dc5cff;
+    color: #f5e4df;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Oleo Script', cursive;
+}
+h1{
+    font-size: 30pt;
+}
+h2{
+    font-size: 22pt;
+}
+header {
+    text-align: center;
+}
+#hero,footer{
+    color:rgb(255, 202, 34);
+    border: 2px solid rgb(255, 202, 34);
+    background-color: #9ebdf0;
+    text-align: center;
+    padding: 10px;
+}
+#hero img{ 
+    
+    width: 300px;
+}
+#bio{
+    text-align: center;
+}
