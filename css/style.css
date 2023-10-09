@@ -1,65 +1,108 @@
-body{
+body {
     font-family: 'Amita', cursive;
     background-color: #dc5cff;
     color: #f5e4df;
 }
 
-h1,h2,h3,h4,h5,h6 {
-   font-family: 'Oleo Script', cursive;
-   text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    font-size: 40pt;
 }
-h1{
-    font-size: 30pt;
-}
-h2{
+
+h2 {
     font-size: 22pt;
 }
+
 header {
     text-align: center;
 }
+
 /*hero section*/
-#hero,footer{
-    color:rgb(255, 202, 34);
+#hero,
+footer {
+    color: rgb(255, 202, 34);
     border: 2px solid #ffca22;
     background-color: #9ebdf0;
     text-align: center;
     padding: 10px;
 }
-#hero img{ 
-    
+
+#hero img {
+
     width: 300px;
 }
+
 /* Bio section*/
-#bio{
+#bio {
     text-align: center;
 }
 
 
 /*Hobbies section*/
 #hobbies ul {
-    width:200px;
-    margin-left:auto;
-    margin-right:auto;
-}
-#hobbies ul li:nth-child(even){
-color: #47ff9a;
-
-}
-#hobbies ul li:nth-child(odd){
-    color:#ffca22;
-   
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
- /*Gallery section*/
+#hobbies ul li:nth-child(even) {
+    color: #47ff9a;
 
- #gallery {
+}
+
+#hobbies ul li:nth-child(odd) {
+    color: #ffca22;
+
+}
+
+/*Gallery section*/
+
+#gallery {
     border: 2px solid #ffca22;
- }
+    margin-bottom: 2rem;
+}
 
- #gallery img {
+#gallery img {
     max-width: 100%;
- }
+}
 
 #gallery figure {
     text-align: center;
-}  
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #ffca22;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+}
+
+#lit div p:nth-child(3n+1):first-letter {
+    color: #f5e4df;
+    background-image: linear-gradient(#ffca22, #9ebdf0);
+    float: left;
+    font-size: 3em;
+    margin-right: .25em;
+    padding: .25em;
+    line-height: .65;
+    border: 4.5px solid #ffca22;
+    text-shadow: 2px 2px 3px black;
+    box-shadow:4px 4px 4px black;   
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+}
