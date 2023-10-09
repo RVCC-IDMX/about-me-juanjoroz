@@ -17,6 +17,7 @@ h2{
 header {
     text-align: center;
 }
+/*hero section*/
 #hero,footer{
     color:rgb(255, 202, 34);
     border: 2px solid #ffca22;
@@ -28,11 +29,13 @@ header {
     
     width: 300px;
 }
+/* Bio section*/
 #bio{
     text-align: center;
 }
 
 
+/*Hobbies section*/
 #hobbies ul {
     width:200px;
     margin-left:auto;
@@ -47,4 +50,16 @@ color: #47ff9a;
    
 }
 
- 
+ /*Gallery section*/
+
+ #gallery {
+    border: 2px solid #ffca22;
+ }
+
+ #gallery img {
+    max-width: 100%;
+ }
+
+#gallery figure {
+    text-align: center;
+}  
