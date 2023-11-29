@@ -172,3 +172,9 @@ section #hobbies {
     padding-bottom: 20px;
     text-align: center;
 }
+
+/*contact form*/
+
+#formElements{
+    display: grid;
+}
