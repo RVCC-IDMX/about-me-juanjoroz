@@ -161,6 +161,14 @@ section #hobbies {
 
 
 #video {
-    margin-left: 20%;
-    margin-right: 20%;
+    border: 2px solid #ffca22;
+    height: auto;
+    max-width: 100%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
